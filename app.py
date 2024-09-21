@@ -12,6 +12,7 @@ from flask import Flask, request, jsonify, render_template
 
 app = Flask(__name__)
 
+
 def train_and_save_model():
     print(f"Current working directory: {os.getcwd()}")
     data = pd.read_csv('salary_data.csv')
