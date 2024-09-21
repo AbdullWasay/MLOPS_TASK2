@@ -27,4 +27,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: AbdulWasay/salary-prediction-app:latest
+          tags: abdulwasay30822/salary-prediction-app:latest
+
